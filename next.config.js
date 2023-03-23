@@ -9,16 +9,7 @@ module.exports = {
   },
 };
 
-module.exports = {
-    async rewrites() {
-        return [
-          {
-            source: '/api/:path*',
-            destination: 'https://article-gpt.vercel.app/:path*',
-          },
-        ]
-      },
-  };
+
 
 // const withPWA = require("next-pwa");
 
